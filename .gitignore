@@ -1,10 +1,57 @@
-# Python-generated files
+# ==========================================
+# 🐍 Python Ignored Files
+# ==========================================
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
 wheels/
-*.egg-info
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+.bin/
 
-# Virtual environments
-.venv
+# ==========================================
+# 🗂️ Project Specific Ignored Files
+# ==========================================
+# Credentials (Crucial!)
+.env
+.env.local
+
+# Local Diagnostic Logs
+logs/*.log
+logs/pipeline.log
+
+# System-Generated PDFs and Texts
+outputs/*.pdf
+outputs/*.txt
+# Allow sample PDFs already tracked in outputs/
+!outputs/CoverLetter_Adithya_Company_on_Inte.pdf
+!outputs/Resume_Adithya_Company_on_Inte.pdf
+
+# ==========================================
+# 💻 IDE & OS Ignored Files
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+Thumbs.db
+EHthumbs.db
+Desktop.ini
+.DS_Store
